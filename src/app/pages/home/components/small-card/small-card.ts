@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './small-card.css'
 })
 export class SmallCard {
-
+imagem:string|undefined;
+titulo:string|undefined;
+descricao: string | undefined;
 }
