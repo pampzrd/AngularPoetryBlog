@@ -2,7 +2,10 @@
   <app-title></app-title>
   <div class="sub-container">
 
+
   <div class="left">
+    <app-small-card [(ngModel)]="poetryObject.find(poetry => poetryObject.id === 1);
+poetryObject.titulo[0]" [(ngModel)]="poetryObject.imagem[0]" [(ngModel)]="poetryObject.descricao[0]"></app-small-card>
     <app-small-card></app-small-card>
     <app-small-card></app-small-card>
     <app-small-card></app-small-card>
@@ -11,6 +14,9 @@
     <app-small-card></app-small-card>
     <app-small-card></app-small-card>
     <app-small-card></app-small-card>
+    <app-small-card></app-small-card>
+    <app-small-card></app-small-card>
+
   </div>
   <div class="right">
     <app-pre-card></app-pre-card>
