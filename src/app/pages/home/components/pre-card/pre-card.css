@@ -1,0 +1,13 @@
+.pre-card-container{
+  padding: 5pt;
+  max-width: 80%;
+  min-width: 100pt;
+  margin-left: 20pt;
+
+}
+.imagem-pre-card > img{
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+
+}

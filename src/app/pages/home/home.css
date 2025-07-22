@@ -1,0 +1,24 @@
+.container {
+  min-height: 50vh;
+  max-height: 100vh;
+  padding: 15pt;
+}
+.sub-container{
+  display: flex;
+  height: 100%;
+}
+.left{
+  border: dashed 1px darkblue;
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.right{
+  border: dashed 1px orangered;
+  width: 50%;
+  height: 80%;
+  display: flex;
+  justify-content: flex-start;
+}
